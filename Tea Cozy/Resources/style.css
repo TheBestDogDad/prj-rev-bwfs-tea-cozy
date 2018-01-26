@@ -1,0 +1,196 @@
+/* Universal Selectors */
+
+* {
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  font-size: 22px;
+}
+
+body {
+  margin: 0;
+}
+
+h2, h3, h4 {
+  padding: 10px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+/* Header */
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  z-index: 2;
+}
+
+.logo {
+  flex-grow: 1;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: underline;
+  padding-right: 10px;
+  flex-grow: 4;
+}
+
+a {
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+/* Our Mission Selectors */
+
+
+#mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.mission-text {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+/* Tea of the Month Selectors */
+#featured {
+  padding-top: 75px;
+  margin-bottom: 55px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: 0 auto;
+
+}
+
+.images img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.caption {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+.fall-berry {
+  margin-right: 25px;
+  margin-left: 0px;
+}
+
+.spiced-rum {
+  margin-left: 25px;
+}
+
+.donuts {
+  margin-left: 25px;
+  margin-right: 0px;
+}
+
+.myrtle-ave {
+  margin-right: 25px;
+}
+
+.bedford {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+/* Locations Selectors */
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  background-color: transparent;
+  opacity: 1;
+}
+
+.left-box {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 285px;
+}
+
+.middle-box {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 285px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+
+.right-box {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 285px;
+}
+
+.locations-header {
+  background-color: transparent;
+}
+
+  /* Contact */
+.contact {
+  height: 200px;
+
+}
+
+
+  /* Footer */
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
